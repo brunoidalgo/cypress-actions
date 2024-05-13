@@ -1,6 +1,11 @@
 name: Cypress Tests
 
-on: [push]
+on:
+  workflow_dispatch:
+    inputs:
+      cli:
+        description: rRun by cypress comando line
+        default: npm cypress run
 
 jobs:
   cypress-electron-tests:
