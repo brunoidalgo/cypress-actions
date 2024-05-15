@@ -1,4 +1,4 @@
-name: Cypress Tests
+name: Cypress Tests in Tesults
 
 on:
   workflow_dispatch:
