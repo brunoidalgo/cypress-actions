@@ -1,4 +1,5 @@
 Cypress.Commands.add('login', (user, pass) => {
+
     cy.visit('/')
 
     cy.get('[name=user]').as('username')

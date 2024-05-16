@@ -4,8 +4,8 @@
   "description": "Projeto de testes de login com Cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:test": "yarn cypress run",
-    "cypress:gui": "yarn cypress open",
+    "cypress:test": "npx cypress run",
+    "cypress:gui": "npx cypress open",
     "cloud headless": "npx cypress run --record --key bb20a932-fdd5-43e0-b6cf-26c74ce41914"
   },
   "author": "Fernando Papito",

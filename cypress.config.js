@@ -6,8 +6,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    viewportWidth: 1280,
-    viewportHeight: 720,
+    viewportWidth: 1440,
+    viewportHeight: 800,
     baseUrl: "https://loginxp.vercel.app"
   }
 });
